@@ -10,7 +10,7 @@ int main(void)
 {
 	int bas;
 
-	for (bas = 0; bas <= 10; bas++)
+	for (bas = 0; bas < 10; bas++)
 	{
 		printf("%d", bas);
 	}
