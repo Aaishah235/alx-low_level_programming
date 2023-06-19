@@ -3,7 +3,7 @@
 /**
  * main - Print all alphabets in lowercase except q and e
  *
- * Return: (0)
+ * Return: Always (0)
  *
  */
 int main(void)
@@ -14,8 +14,8 @@ int main(void)
 	{
 		if (lqe != 'e' && lqe != 'q')
 		{
-			putchar(lqe);
-			lqe++;
+		putchar(lqe);
+		lqe++;
 		}
 	}
 	putchar('\n');
