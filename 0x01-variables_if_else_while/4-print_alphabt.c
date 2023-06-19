@@ -8,14 +8,13 @@
  */
 int main(void)
 {
-	char lqe = 'a';
+	char lqe;
 
-	while (lqe <= 'z')
+	for (lqe = 'a'; lqe <= 'z'; lqe++)
 	{
 		if (lqe != 'e' && lqe != 'q')
 		{
 		putchar(lqe);
-		lqe++;
 		}
 	}
 	putchar('\n');
