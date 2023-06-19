@@ -11,13 +11,10 @@ int main(void)
 	int b16 = 0;
 	char lwc = 'a';
 
-	while (b16 < 10)
+	while (b16 < 10 && lwc <= 'f')
 	{
-		if (lwc <= 'f')
-		{
-			putchar(lwc);
-			lwc++;
-		}
+		putchar(lwc);
+		lwc++;
 		putchar(b16);
 		b16++;
 	}
