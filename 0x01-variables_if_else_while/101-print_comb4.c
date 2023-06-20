@@ -12,9 +12,9 @@ int main(void)
 
 	for (dgt1 = 0; dgt1 < 8; dgt1++)
 	{
-		for (dgt2 = 0; dgt2 < 9; dgt2++)
+		for (dgt2 = dgt1 + 1; dgt2 < 9; dgt2++)
 		{
-			for (dgt3 = 0; dgt3 < 10; dgt3++)
+			for (dgt3 = dgt2 + 1; dgt3 < 10; dgt3++)
 			{
 				putchar((dgt1 % 10) + '0');
 				putchar((dgt2 % 10) + '0');
