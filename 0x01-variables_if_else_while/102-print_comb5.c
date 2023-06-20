@@ -8,19 +8,19 @@
  */
 int main(void)
 {
-	int dgn1, dgn2;
+	int dn1, dn2;
 
-	for (dgn1 = 0; dgn1 <= 98; dgn1++)
+	for (dn1 = 0; dn1 <= 98; dn1++)
 	{
-		for (dgn2 = dgn1 + 1; dgn2 <= 99; dgn2++)
+		for (dn2 = dn1 + 1; dn2 <= 99; dn2++)
 		{
-			putchar((dgn1 / 10) + '0');
-			putchar((dgn1 % 10) + '0');
+			putchar((dn1 / 10) + '0');
+			putchar((dn1 % 10) + '0');
 			putchar(' ');
-			putchar((dgn2 / 10) + '0');
-			putchar((dgn2 % 10) + '0');
+			putchar((dn2 / 10) + '0');
+			putchar((dn2 % 10) + '0');
 
-			if (dgn1 == 98 && dgn2 == 99)
+			if (dn1 == 98 && dn2 == 99)
 				continue;
 
 			putchar(',');
