@@ -18,7 +18,7 @@ int main(void)
 			{
 				putchar((dgt1 % 10) + '0');
 				putchar((dgt2 % 10) + '0');
-				putchar((dgt3 % 10)) + '0';
+				putchar((dgt3 % 10) + '0');
 
 				if (dgt1 == 7 && dgt2 == 8 && dgt3 == 9)
 					continue;
