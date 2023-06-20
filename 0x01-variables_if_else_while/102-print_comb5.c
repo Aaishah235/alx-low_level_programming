@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print all possible combinations of two two-digit numbers ranging from 0-99
+ * main - Print all possible combinations of two two-digit numbers 0-99
  *
  * Return: 0
  *
@@ -22,12 +22,10 @@ int main(void)
 
 			if (dn1 == 98 && dn2 == 99)
 				continue;
-
 			putchar(',');
 			putchar(' ');
 		}
 	}
 	putchar('\n');
-
 	return (0);
 }
