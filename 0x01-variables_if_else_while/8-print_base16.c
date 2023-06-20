@@ -8,19 +8,15 @@
  */
 int main(void)
 {
-	int b16 = 0;
-	char lwc = 'a';
+	int b16;
+	char lwc;
 
-	while (b16 < 10)
-	{
-		putchar(b16);
-		b16++;
-	}
-	while (lwc <= 'f')
-	{
+	for (b16 = 0; b16 < 10; b16++)
+		putchar((b16 % 10) + '0');
+
+	for (lwc = 'a'; lwc <= 'f'; lwc++)
 		putchar(lwc);
-		lwc++;
-	}
+
 	putchar('\n');
 	return (0);
 }
