@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 24_hours - Print last minute
+ * jack_bauer - Print last minute
  * Return: Minute of the day
  */
 
@@ -25,9 +25,9 @@ void jack_bauer(void)
 	_putchar(c + '0');
 	_putchar(d + '0');
 	_putchar('\n');
-	} 
-	} 
-	} 
-	} 
+	}
+	}
+	}
+	}
 	}
 }
